@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://cdn.thedesigninspiration.com/wp-content/uploads/2010/03/Pattern254-l.jpg");
+
+}
+#title{
+    background-color: #DC6300;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+#information{
+    background-color: #FFE6C0;
+    color:#008D14;
+    width: 400px;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+#random-num{
+    margin-top: 10px;
+    width:200px;
+    height: 100px;
+    background-color:#00BF73 ;
+    float: left;
+}
+#win-lose{
+    background-color:#00FFFF;
+    width: 80px;
+    height:100px;
+    float: left;
+    margin-top: 10px;
+    margin-left:10px;
+}
+.cyrstals-images{
+ clear: both;
+ margin-top:123px;
+}
+.cyrstals-image{
+    width: 80px;
+    height: 80px;
+}
+.total-score{
+    color:white;
+    background-color:#008F8C;
+    width:230px; 
+    padding: 5px;
+    margin: 10px 0px;
+}
+.total-score-num{
+    padding-bottom: 80px;
+    background-color:#008F8C; 
+    width:240px;
+    color:white;
+    font-size:45px;
+}

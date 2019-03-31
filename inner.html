@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 id="title">CrystalsCollector!</h1>
+    <div id="information">
+        <h4>You will be given a random number at the start of the game. </h4>
+        <h4>There are four cyrstals bellow. By clicking ona cyrstal you will add a specific amount of points to your
+            total score.</h4>
+        <h4>You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.</h4>
+        <h4>the value of each cyristal is hidden from you until you click on it.</h4>
+        <h4>Each time when the game starts, the game will change the values of each cyristal</h4>
+    </div>
+    <div id="scores">
+        <!--show random num-->
+        <div id="random-num">0</div>
+        <!--Show wins and loses-->
+        <div id="win-lose">
+            <div id="result"></div>
+            <p>Win: <span id="wins">0</span> </p>
+            <p>Loses: <span id="lose">0</span> </p>
+        </div>
+    </div>
+    <div class="cyrstals-images">
+       <img class="cyrstals-image" id ="0" src="./image/blue.png">
+       <img class="cyrstals-image" id="1" src="./image/green.png">
+       <img class="cyrstals-image" id="2" src="./image/red.png">
+       <img class="cyrstals-image" id="3" src="./image/yellow.png">
+    </div>
+    <div class="total-score">Your total score is: </div>
+    <div class="total-score-num">0</div>
+    <script src="./cyristals.js"></script>
+</body>
+
+</html>
